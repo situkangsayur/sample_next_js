@@ -1,5 +1,5 @@
 # Use a base image with Java 17
-FROM openjdk:17-jdk-slim as builder
+FROM openjdk:21-jdk-slim as builder
 
 # Set the working directory
 WORKDIR /app
@@ -17,7 +17,7 @@ COPY src src
 RUN ./gradlew bootJar
 
 # Use a smaller base image for the final application
-FROM openjdk:17-jdk-slim
+FROM openjdk:21-jdk-slim
 
 # Set the working directory
 WORKDIR /app
