@@ -23,6 +23,14 @@ public class Employee {
     public Employee() {
     }
 
+    // Constructor for testing purposes
+    public Employee(Long id, String firstName, String email, String position) {
+        this.id = id;
+        this.firstName = firstName;
+        this.email = email;
+        this.position = position;
+    }
+
     public Employee(String firstName, String lastName, String email, String position, String idCard, String phoneNumber, String birthOfPlace, String birthOfDate) {
         this.firstName = firstName;
         this.lastName = lastName;
