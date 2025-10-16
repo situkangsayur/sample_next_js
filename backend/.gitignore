@@ -1,0 +1,61 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.log
+*.log.*
+*.cache
+*.diff
+*.patch
+*.tmp
+target/
+build/
+.gradle/
+.project
+.settings/
+.classpath
+.factorypath
+
+# Maven
+log/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.release/
+
+# Gradle
+.gradle/
+build/
+.project
+!gradle/wrapper/gradle-wrapper.jar
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Neovim
+.nvim/
+.local/share/nvim/
+.cache/nvim/
+.config/nvim/
