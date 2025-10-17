@@ -59,4 +59,4 @@ build/
 .local/share/nvim/
 .cache/nvim/
 .config/nvim/
-
+.vim/
